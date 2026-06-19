@@ -869,81 +869,73 @@
             </div>
         </div>
         
-        <!-- Step 7: Website Style & Examples -->
+        <!-- Step 7: Website Style -->
         <div class="card hidden" id="step7">
-            <h2>Step 7: Website Style & Examples</h2>
-            <p class="card-subtitle">Rate these live examples and pick your favorites</p>
+            <h2>Step 7: Website Style</h2>
+            <p class="card-subtitle">Rate these examples and pick your favorites</p>
             
             <div class="style-cards">
-                <div class="style-card" id="v1-card">
-                    <div class="style-preview" style="background: linear-gradient(135deg, #2d3748, #319795);">V1</div>
-                    <h3>Modern & Clinical</h3>
-                    <a href="https://my-harmony-v2-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View Live Site</a>
+                <!-- Card A -->
+                <div class="style-card" id="card-a">
+                    <h3>Version A – My Harmony V2</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin: 12px 0;">Clean, calm layout with prominent hero section and simple call-to-action.</p>
+                    <a href="https://my-harmony-v2-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View example</a>
                     <div class="form-group" style="margin-top: 12px;">
                         <label style="font-size: 0.9rem;">Your Rating</label>
-                        <select id="v1-rating" onchange="saveStyleRating('v1')">
+                        <select id="rating-a" onchange="saveStyleRating('a')">
                             <option value="">Select...</option>
                             <option value="love">Love it</option>
                             <option value="like">Like it</option>
                             <option value="not-my-style">Not my style</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="v1-comment" placeholder="Optional comment..." onchange="saveStyleRating('v1')" style="font-size: 0.9rem;">
                     </div>
                 </div>
                 
-                <div class="style-card" id="v2-card">
-                    <div class="style-preview" style="background: linear-gradient(135deg, #1a3d2e, #3d7a5a);">V2</div>
-                    <h3>Warm & Reassuring</h3>
-                    <a href="https://my-harmony-v1-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View Live Site</a>
+                <!-- Card B -->
+                <div class="style-card" id="card-b">
+                    <h3>Version B – My Harmony V1</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin: 12px 0;">Warm, welcoming layout with strong headline and clear services sections.</p>
+                    <a href="https://my-harmony-v1-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View example</a>
                     <div class="form-group" style="margin-top: 12px;">
                         <label style="font-size: 0.9rem;">Your Rating</label>
-                        <select id="v2-rating" onchange="saveStyleRating('v2')">
+                        <select id="rating-b" onchange="saveStyleRating('b')">
                             <option value="">Select...</option>
                             <option value="love">Love it</option>
                             <option value="like">Like it</option>
                             <option value="not-my-style">Not my style</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="v2-comment" placeholder="Optional comment..." onchange="saveStyleRating('v2')" style="font-size: 0.9rem;">
                     </div>
                 </div>
                 
-                <div class="style-card" id="v3-card">
-                    <div class="style-preview" style="background: linear-gradient(135deg, #e07a5f, #81b29a);">V3</div>
-                    <h3>Original My Harmony</h3>
-                    <a href="https://my-harmony-8piwqak74-vcentralprocure-2350s-projects.vercel.app/#different" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View Live Site</a>
+                <!-- Card C -->
+                <div class="style-card" id="card-c">
+                    <h3>Version C – My Harmony Alt</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin: 12px 0;">Differentiated layout with more visual sections and emphasis on "what makes you different."</p>
+                    <a href="https://my-harmony-8piwqak74-vcentralprocure-2350s-projects.vercel.app/#different" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View example</a>
                     <div class="form-group" style="margin-top: 12px;">
                         <label style="font-size: 0.9rem;">Your Rating</label>
-                        <select id="v3-rating" onchange="saveStyleRating('v3')">
+                        <select id="rating-c" onchange="saveStyleRating('c')">
                             <option value="">Select...</option>
                             <option value="love">Love it</option>
                             <option value="like">Like it</option>
                             <option value="not-my-style">Not my style</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="v3-comment" placeholder="Optional comment..." onchange="saveStyleRating('v3')" style="font-size: 0.9rem;">
                     </div>
                 </div>
                 
-                <div class="style-card" id="v4-card">
-                    <div class="style-preview" style="background: linear-gradient(135deg, #c9a959, #e07a5f);">V4</div>
-                    <h3>Transformative & Bold</h3>
-                    <a href="https://my-harmony-v3-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View Live Site</a>
+                <!-- Card D -->
+                <div class="style-card" id="card-d">
+                    <h3>Version D – My Harmony V3</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin: 12px 0;">Modern, structured layout with clear sections for services, story, and contact.</p>
+                    <a href="https://my-harmony-v3-vcentralprocure-2350s-projects.vercel.app/" target="_blank" class="btn btn-primary" style="display: block; margin-bottom: 12px; text-decoration: none; text-align: center;">View example</a>
                     <div class="form-group" style="margin-top: 12px;">
                         <label style="font-size: 0.9rem;">Your Rating</label>
-                        <select id="v4-rating" onchange="saveStyleRating('v4')">
+                        <select id="rating-d" onchange="saveStyleRating('d')">
                             <option value="">Select...</option>
                             <option value="love">Love it</option>
                             <option value="like">Like it</option>
                             <option value="not-my-style">Not my style</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="v4-comment" placeholder="Optional comment..." onchange="saveStyleRating('v4')" style="font-size: 0.9rem;">
                     </div>
                 </div>
             </div>
@@ -952,10 +944,10 @@
                 <label>Pick your 1st choice overall</label>
                 <select id="firstChoice" onchange="updateSecondChoiceOptions()">
                     <option value="">Select...</option>
-                    <option value="v1">V1 - Modern & Clinical</option>
-                    <option value="v2">V2 - Warm & Reassuring</option>
-                    <option value="v3">V3 - Original My Harmony</option>
-                    <option value="v4">V4 - Transformative & Bold</option>
+                    <option value="a">A – My Harmony V2</option>
+                    <option value="b">B – My Harmony V1</option>
+                    <option value="c">C – My Harmony Alt</option>
+                    <option value="d">D – My Harmony V3</option>
                 </select>
             </div>
             
@@ -963,16 +955,16 @@
                 <label>Pick your 2nd choice overall</label>
                 <select id="secondChoice">
                     <option value="">Select...</option>
-                    <option value="v1">V1 - Modern & Clinical</option>
-                    <option value="v2">V2 - Warm & Reassuring</option>
-                    <option value="v3">V3 - Original My Harmony</option>
-                    <option value="v4">V4 - Transformative & Bold</option>
+                    <option value="a">A – My Harmony V2</option>
+                    <option value="b">B – My Harmony V1</option>
+                    <option value="c">C – My Harmony Alt</option>
+                    <option value="d">D – My Harmony V3</option>
                 </select>
             </div>
             
             <div class="tip-box">
                 <span class="tip-icon">💡</span>
-                <span class="tip-text"><strong>Why this matters:</strong> Your website is often the first impression. The right style attracts your ideal patients and repels poor fits.</span>
+                <span class="tip-text"><strong>Why this matters:</strong> Rating real examples helps us match your launch site to how you want patients to feel.</span>
             </div>
             
             <div class="button-group">
@@ -1207,10 +1199,10 @@
             }
             else if (step === 7) {
                 data.styleRatings = {
-                    v1: { rating: document.getElementById('v1-rating')?.value, comment: document.getElementById('v1-comment')?.value },
-                    v2: { rating: document.getElementById('v2-rating')?.value, comment: document.getElementById('v2-comment')?.value },
-                    v3: { rating: document.getElementById('v3-rating')?.value, comment: document.getElementById('v3-comment')?.value },
-                    v4: { rating: document.getElementById('v4-rating')?.value, comment: document.getElementById('v4-comment')?.value }
+                    a: { rating: document.getElementById('rating-a')?.value },
+                    b: { rating: document.getElementById('rating-b')?.value },
+                    c: { rating: document.getElementById('rating-c')?.value },
+                    d: { rating: document.getElementById('rating-d')?.value }
                 };
                 data.firstChoiceVersionId = document.getElementById('firstChoice')?.value;
                 data.secondChoiceVersionId = document.getElementById('secondChoice')?.value;
@@ -1256,10 +1248,9 @@
         
         // Save style rating
         function saveStyleRating(version) {
-            const rating = document.getElementById(version + '-rating').value;
-            const comment = document.getElementById(version + '-comment').value;
+            const rating = document.getElementById('rating-' + version).value;
             if (!formData.styleRatings) formData.styleRatings = {};
-            formData.styleRatings[version] = { rating, comment };
+            formData.styleRatings[version] = { rating };
             saveData();
         }
         
@@ -1355,11 +1346,11 @@
         function populateSummary() {
             const grid = document.getElementById('summaryGrid');
             const firstChoiceLabel = formData.firstChoiceVersionId ? 
-                formData.firstChoiceVersionId.toUpperCase() + ' - ' + 
-                (formData.firstChoiceVersionId === 'v1' ? 'Modern & Clinical' :
-                 formData.firstChoiceVersionId === 'v2' ? 'Warm & Reassuring' :
-                 formData.firstChoiceVersionId === 'v3' ? 'Original My Harmony' :
-                 'Transformative & Bold') : 'Not selected';
+                'Version ' + formData.firstChoiceVersionId.toUpperCase() + ' – ' + 
+                (formData.firstChoiceVersionId === 'a' ? 'My Harmony V2' :
+                 formData.firstChoiceVersionId === 'b' ? 'My Harmony V1' :
+                 formData.firstChoiceVersionId === 'c' ? 'My Harmony Alt' :
+                 'My Harmony V3') : 'Not selected';
             grid.innerHTML = `
                 <div class="summary-item">
                     <label>Practice</label>
